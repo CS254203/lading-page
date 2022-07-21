@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+}
+.header-logo{
+    margin-left: 10%;
+    font-size: 24px;
+    color:#F9FAF8;
+    font-weight: bold;
+}
+
+.links{
+    margin-right: 10%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin-right: 15px;
+}
+
+a{
+    text-decoration: none;
+    color:#F9FAF8;
+}
+
+.hero-banner{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 450px;
+    background-color: #1F2937;
+    color:#F9FAF8;
+}
+
+.hero-banner-information{
+    margin-left:10%;
+    width:670px;
+    height:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-banner-main{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-banner-second{
+    font-size:24px;
+    margin-top: -20px;
+}
+
+.hero-banner-placeholder{
+    margin-right:10%;
+    width:500px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width:500px;
+    height:200px;
+    background-color: gray;
+    color:#F9FAF8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.sign-up-button{
+    background-color: #3882F6;
+    border: none;
+    padding: 15px 72px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    color:#F9FAF8;
+}
